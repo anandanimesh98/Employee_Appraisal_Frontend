@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    font-family: 'Raleway', sans-serif !important;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url("./assets/9.jpg") repeat 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+ }
+ 
+ .navbar{
+    background-color: yellow !important;
+    color: orangered !important;
+ }
+ 
+ 
+ .btn{
+    border-radius: 100px !important;
+    background-color: orange !important;
+    color: red !important;
+ }
+ .btn-info:hover{
+    background-color: rgba(0,0,255, 0.2);
+    
+ } 
+ 
+ .btn-success:hover{
+    background-color: rgba(0,128,0, 0.2);
+    
+ } 
+ 
+ .btn-danger:hover{
+    background-color: rgba(255,0,0, 0.2);
+    
+ } 
+ 
+ input{
+    border: 0 !important;
+    outline: 0 !important;
+    background: transparent !important;
+    border-bottom: 1px solid white !important;
+ }
+ 
+ .panel{
+    background-color: orangered !important;
+    color: blueviolet !important;
+    width: 65% !important;
+    
+    margin-left: auto;
+    margin-right: auto;
+ }
